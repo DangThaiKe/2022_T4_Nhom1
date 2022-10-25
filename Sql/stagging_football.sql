@@ -15,3 +15,6 @@ CREATE TABLE result_football (
     round VARCHAR(25) 
     status VARCHAR(25) 
 );
+/*load file csv*/
+SHOW VARIABLES LIKE "secure_file_priv";
+load data infile "C:\Downloads\all.csv" into table result_football fields terminated by "," ignore 1 rows;
