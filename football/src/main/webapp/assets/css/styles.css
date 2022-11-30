@@ -1,0 +1,324 @@
+#header {
+    height: 60px;
+    background-color: #37003c;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    color: var(--white);
+    display: inline-block;
+}
+
+.header-logo h2 {
+    font-size: 1.7rem;
+    height: 60px;
+    line-height: 4rem;
+}
+
+.club-list {
+    list-style-type: none;
+}
+
+.club-item {
+    display: inline-block;
+    margin-left: 8px;
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+.club-item:hover {
+    transform: scale(1);
+}
+
+.club-item img {
+    width: 40px;
+    height: 40px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right span {
+    color: var(--white);
+    font-size: 1rem;
+}
+
+.header-right span:nth-child(2) {
+    margin: 0 16px;
+}
+
+.search-icon {
+    color: var(--white);
+}
+
+/* club */
+#club {
+    margin-top: 62px;
+    text-align: center;
+}
+
+/* Slide */
+#slide {
+    background-color: #37003c;
+    background-image: url(https://www.premierleague.com/resources/prod/v6.107.3-4673/i/bg-elements/heading-bg-desktop.svg);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    padding: 7rem 0 5.2rem;
+}
+
+.slide-result {
+    font-size: 2.8rem;
+    color: var(--white);
+}
+
+/* content */
+#content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content-container {
+    margin-top: 40px;
+}
+
+.content-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-left span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.fixtures .competition .competitionImage1 {
+    transform: scale(0.85);
+    right: -22px;
+    position: relative;
+}
+
+.competitionImage1 {
+    content: '';
+    background: url(https://www.premierleague.com/resources/prod/v6.107.3-4673/i/sprites/global-sprite.png) -227px -366px
+        no-repeat;
+    width: 170px;
+    height: 28px;
+    display: block;
+}
+
+.content-list {
+    margin-top: 20px;
+}
+
+.content-item {
+    list-style-type: none;
+    margin-bottom: 16px;
+    cursor: pointer;
+    background: linear-gradient(270deg, #ff2882, #963cff 45%);
+}
+
+.overview {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 8px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+}
+
+.teamName {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.score {
+    background: #37003c;
+    font-size: 1.2rem;
+    color: var(--white);
+    font-weight: 400;
+    margin: 0 8px;
+    padding: 2px 8px;
+}
+
+.stadiumName {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    flex: 1;
+    max-width: 400px;
+}
+
+.icn {
+    content: '';
+    display: inline-block;
+    width: 23px;
+    height: 14px;
+    margin-right: 10px;
+    background: url(https://www.premierleague.com/resources/prod/v6.107.3-4673/i/sprites/global-sprite.png) -728px -552px
+        no-repeat;
+}
+
+.refereeName,
+.att {
+    font-size: 1rem;
+    color: var(--white);
+}
+
+.referee-b {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    margin-right: 4px;
+    background: url(https://www.premierleague.com/resources/prod/v6.107.3-4673/i/sprites/global-sprite.png)
+        no-repeat;
+    background-position: -272px -691px;
+    color: #000;
+}
+
+/* footer */
+#footer {
+    background-color: #37003c;
+    padding: 30px 0 40px;
+}
+
+.footer-header {
+    color: var(--white);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.footer-item {
+    color: var(--white);
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.footer-item:hover {
+    color: #ff2882;
+}
+
+/* Detail */
+.detail-container {
+    position: relative;
+    padding-top: 41%;
+    background: url(https://resources.premierleague.com/photos/2022/03/14/ac84c38c-c134-41f3-984d-08a7d6fe0fd3/St-James-Park-2022.jpg?width=1600&height=600)
+        no-repeat;
+}
+
+.info {
+    background-color: #37003c;
+    padding: 8px 18px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.info-date {
+    color: var(--white);
+    font-size: 0.8rem;
+    margin-right: 10px;
+}
+
+.info-refer {
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    font-size: 0.8rem;
+    margin-right: 10px;
+}
+
+.icon {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    margin-right: 4px;
+    background: url(https://www.premierleague.com/resources/prod/v6.107.3-4673/i/sprites/global-sprite.png)
+        no-repeat;
+    background-position: -272px -691px;
+    color: #000;
+}
+
+.info-staium {
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    font-size: 0.8rem;
+    margin-right: 10px;
+}
+
+.icn-stadium {
+    content: '';
+    display: inline-block;
+    width: 23px;
+    height: 14px;
+    margin-right: 4px;
+    background: url(https://www.premierleague.com/resources/prod/v6.107.3-4673/i/sprites/global-sprite.png)
+        no-repeat;
+    background-position: -751px -552px;
+}
+
+.info-att,
+.info-kickoff {
+    color: var(--white);
+    font-size: 0.8rem;
+    margin-right: 10px;
+}
+
+.detail-footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #37003c;
+    width: 100%;
+    display: flex;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-footer span {
+    font-size: 1.6rem;
+    color: var(--white);
+    line-height: 62px;
+}
+
+.detail-score {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    margin: 0 60px;
+    width: 140px;
+    height: 65px;
+    background: #e90052;
+}
+
+.detail-score span {
+    margin: 0 6px;
+}
